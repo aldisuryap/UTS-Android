@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+    >
+
+
+        <Button
+            android:id="@+id/btn_siswa"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="25dp"
+            android:text="Siswa"
+            android:onClick="handleSiswa"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_siswa2"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="25dp"
+            android:text="Guru"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_siswa" />
+
+        <Button
+            android:id="@+id/btn_siswa3"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="25dp"
+            android:text="Mata Pelajaran"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_siswa2" />
+
+        <Button
+            android:id="@+id/btn_siswa4"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="25dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_siswa3" />
+
+        <Button
+            android:id="@+id/btn_siswa5"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="25dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_siswa4" />
+
+        <Button
+            android:id="@+id/btn_siswa6"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="25dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_siswa5" />
+
+        <Button
+            android:id="@+id/btn_siswa7"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="25dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_siswa6" />
+
+        <Button
+            android:id="@+id/btn_siswa8"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="25dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_siswa7" />
+
+        <Button
+            android:id="@+id/btn_siswa9"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="20dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_siswa8" />
+
+        <Button
+            android:id="@+id/btn_siswa10"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="15dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_siswa9" />
+
+        <Button
+            android:id="@+id/btn_siswa11"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="25dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_siswa9" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
